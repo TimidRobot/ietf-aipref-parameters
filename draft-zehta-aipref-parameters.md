@@ -48,6 +48,8 @@ author:
     email: "timid@creativecommons.org"
 
 normative:
+  FIELDS: RFC9651
+  URI: RFC3986
   VOCAB:
     title: "A Vocabulary For Expressing AI Usage Preferences"
     date: draft-ietf-aipref-vocab-date
@@ -68,14 +70,14 @@ informative:
 
 --- abstract
 
-TODO Abstract
+This document defines how parameters can be added to AI Preferendes.
 
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+This document defines how parameters can be added to AI Preferendes {{VOCAB}}.
 
 
 # Conventions and Definitions
@@ -83,9 +85,28 @@ TODO Introduction
 {::boilerplate bcp14-tagged}
 
 
+# Parameters
+
+The AI Preferences can be extended with parameters. The parameter syntax
+defined in ({{Section 3.1.2 of !FIELDS}}) is used.
+
+If the value of a parameter contains a URI-reference ({{Section 4.1 of
+URI}}) and its value is not a valid URI-reference, the parameter MUST be
+ignored. If its value is a relative reference ({{Section 4.2 of URI}}), it MUST
+be resolved ({{Section 5 of URI}}) before being used.
+
+Examples:
+
+~~~
+ai-train=n;foo=y
+ai-train=y;tipjar=/tipjar
+ai-train=n,search=y;display-text=y;max-text-length=160
+~~~
+
+
 # Security Considerations
 
-TODO Security
+See {{VOCAB}}.
 
 
 # IANA Considerations
