@@ -13,7 +13,7 @@ Expires: 24 October 2026
 
 Abstract
 
-   TODO Abstract
+   This document defines how parameters can be added to AI Preferendes.
 
 About This Document
 
@@ -67,15 +67,17 @@ Table of Contents
 
    1.  Introduction
    2.  Conventions and Definitions
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  Normative References
+   3.  Parameters
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  Normative References
    Acknowledgments
    Author's Address
 
 1.  Introduction
 
-   TODO Introduction
+   This document defines how parameters can be added to AI Preferendes
+   [VOCAB].
 
 2.  Conventions and Definitions
 
@@ -85,15 +87,35 @@ Table of Contents
    BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
    capitals, as shown here.
 
-3.  Security Considerations
+3.  Parameters
 
-   TODO Security
+   The AI Preferences can be extended with parameters.  The parameter
+   syntax defined in (Section 3.1.2 of [FIELDS]) is used.
 
-4.  IANA Considerations
+   If the value of a parameter contains a URI-reference (Section 4.1 of
+   [URI]) and its value is not a valid URI-reference, the parameter MUST
+   be ignored.  If its value is a relative reference (Section 4.2 of
+   [URI]), it MUST be resolved (Section 5 of [URI]) before being used.
+
+   Examples:
+
+   ai-train=n;foo=y
+   ai-train=y;tipjar=/tipjar
+   ai-train=n,search=y;display-text=y;max-text-length=160
+
+4.  Security Considerations
+
+   See [VOCAB].
+
+5.  IANA Considerations
 
    This document has no IANA actions.
 
-5.  Normative References
+6.  Normative References
+
+   [FIELDS]   Nottingham, M. and P. Kamp, "Structured Field Values for
+              HTTP", RFC 9651, DOI 10.17487/RFC9651, September 2024,
+              <https://www.rfc-editor.org/rfc/rfc9651>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -103,6 +125,11 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+   [URI]      Berners-Lee, T., Fielding, R., and L. Masinter, "Uniform
+              Resource Identifier (URI): Generic Syntax", STD 66,
+              RFC 3986, DOI 10.17487/RFC3986, January 2005,
+              <https://www.rfc-editor.org/rfc/rfc3986>.
 
    [VOCAB]    Keller, P. and M. Thomson, Ed., "A Vocabulary For
               Expressing AI Usage Preferences", Work in Progress,
