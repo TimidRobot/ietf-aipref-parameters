@@ -65,6 +65,24 @@ normative:
         organization: Mozilla
 
 informative:
+  DISPLAY-BASED:
+    title: "A Vocabulary for Controlling Usage of Content Collected by Search and AI Crawlers"
+    date: 2026-03-25
+    seriesinfo:
+      Internet-Draft: draft-madhavan-aipref-displaybasedpref-02
+    author:
+      -
+        fullname: Krishna Madhavan
+        organization: Microsoft Corporation
+      -
+        fullname: Fabrice Canel
+        organization: Microsoft Corporation
+      -
+        fullname: Jordan Gimbel
+        organization: Microsoft Corporation
+      -
+        fullname: Sonia Cooper
+        organization: Microsoft Corporation
 
 ...
 
@@ -102,6 +120,9 @@ ai-train=n;foo=y
 ai-train=y;tipjar=/tipjar
 ai-train=n,search=y;display-text=y;max-text-length=160
 ~~~
+
+(The last example reimiplments some categories from {{DISPLAY-BASED}} as
+parameters.)
 
 
 # Security Considerations
