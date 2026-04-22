@@ -19,37 +19,48 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "AIPREF Vocabulary Parameters"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-zehta-aipref-parameters-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Web and Internet Transport"
+workgroup: "AI Preferences"
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - AI Preferences
+ - Artificial Intelligence
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "AI Preferences"
+  type: "Working Group"
+  mail: "ai-control@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/ai-control/"
+  github: "TimidRobot/ietf-aipref-parameters"
+  latest: "https://TimidRobot.github.io/ietf-aipref-parameters/draft-zehta-parameters.html"
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: "Timid Robot Zehta"
+    organization: "Creative Commons"
+    email: "timid@creativecommons.org"
 
 normative:
+  VOCAB:
+    title: "A Vocabulary For Expressing AI Usage Preferences"
+    date: draft-ietf-aipref-vocab-date
+    seriesinfo:
+      Internet-Draft: draft-ietf-aipref-vocab-05
+    author:
+      -
+        fullname: Paul Keller
+        organization: Open Future
+      -
+        fullname: Martin Thomson
+        role: editor
+        organization: Mozilla
 
 informative:
 
