@@ -2,14 +2,14 @@
 
 
 
-WG Working Group                                              Y. N. Here
-Internet-Draft                                    Your Organization Here
+AI Preferences                                               T. R. Zehta
+Internet-Draft                                          Creative Commons
 Intended status: Informational                             22 April 2026
 Expires: 24 October 2026
 
 
-                           TODO - Your title
-                  draft-todo-yourname-protocol-latest
+                      AIPREF Vocabulary Parameters
+                  draft-zehta-aipref-parameters-latest
 
 Abstract
 
@@ -20,16 +20,17 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    The latest revision of this draft can be found at
-   https://example.com/LATEST.  Status information for this document may
-   be found at https://datatracker.ietf.org/doc/draft-todo-yourname-
-   protocol/.
+   https://TimidRobot.github.io/ietf-aipref-parameters/draft-zehta-
+   parameters.html.  Status information for this document may be found
+   at https://datatracker.ietf.org/doc/draft-zehta-aipref-parameters/.
 
-   Discussion of this document takes place on the WG Working Group
-   mailing list (mailto:WG@example.com), which is archived at
-   https://example.com/WG.
+   Discussion of this document takes place on the AI Preferences Working
+   Group mailing list (mailto:ai-control@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/ai-control/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/ai-control/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/USER/REPO.
+   https://github.com/TimidRobot/ietf-aipref-parameters.
 
 Status of This Memo
 
@@ -103,12 +104,18 @@ Table of Contents
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
 
+   [VOCAB]    Keller, P. and M. Thomson, Ed., "A Vocabulary For
+              Expressing AI Usage Preferences", Work in Progress,
+              Internet-Draft, draft-ietf-aipref-vocab-05, April 2026,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-aipref-
+              vocab-05>.
+
 Acknowledgments
 
    TODO acknowledge.
 
 Author's Address
 
-   Your Name Here
-   Your Organization Here
-   Email: your.email@example.com
+   Timid Robot Zehta
+   Creative Commons
+   Email: timid@creativecommons.org
