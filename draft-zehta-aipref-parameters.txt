@@ -70,7 +70,9 @@ Table of Contents
    3.  Parameters
    4.  Security Considerations
    5.  IANA Considerations
-   6.  Normative References
+   6.  References
+     6.1.  Normative References
+     6.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -103,6 +105,9 @@ Table of Contents
    ai-train=y;tipjar=/tipjar
    ai-train=n,search=y;display-text=y;max-text-length=160
 
+   (The last example reimiplments some categories from [DISPLAY-BASED]
+   as parameters.)
+
 4.  Security Considerations
 
    See [VOCAB].
@@ -111,7 +116,9 @@ Table of Contents
 
    This document has no IANA actions.
 
-6.  Normative References
+6.  References
+
+6.1.  Normative References
 
    [FIELDS]   Nottingham, M. and P. Kamp, "Structured Field Values for
               HTTP", RFC 9651, DOI 10.17487/RFC9651, September 2024,
@@ -136,6 +143,16 @@ Table of Contents
               Internet-Draft, draft-ietf-aipref-vocab-05, April 2026,
               <https://datatracker.ietf.org/doc/html/draft-ietf-aipref-
               vocab-05>.
+
+6.2.  Informative References
+
+   [DISPLAY-BASED]
+              Madhavan, K., Canel, F., Gimbel, J., and S. Cooper, "A
+              Vocabulary for Controlling Usage of Content Collected by
+              Search and AI Crawlers", Work in Progress, Internet-Draft,
+              draft-madhavan-aipref-displaybasedpref-02, 25 March 2026,
+              <https://datatracker.ietf.org/doc/html/draft-madhavan-
+              aipref-displaybasedpref-02>.
 
 Acknowledgments
 
