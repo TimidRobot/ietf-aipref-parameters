@@ -13,7 +13,7 @@ Expires: 24 October 2026
 
 Abstract
 
-   This document defines how parameters can be added to AI Preferendes.
+   This document defines how parameters can be added to AI Preferences.
 
 About This Document
 
@@ -78,7 +78,7 @@ Table of Contents
 
 1.  Introduction
 
-   This document defines how parameters can be added to AI Preferendes
+   This document defines how parameters can be added to AI Preferences
    [VOCAB].
 
 2.  Conventions and Definitions
@@ -105,8 +105,8 @@ Table of Contents
    ai-train=y;tipjar=/tipjar
    ai-train=n,search=y;display-text=y;max-text-length=160
 
-   (The last example reimiplments some categories from [DISPLAY-BASED]
-   as parameters.)
+   (The last example reimplements some categories from [DISPLAY] as
+   parameters.)
 
 4.  Security Considerations
 
@@ -146,8 +146,7 @@ Table of Contents
 
 6.2.  Informative References
 
-   [DISPLAY-BASED]
-              Madhavan, K., Canel, F., Gimbel, J., and S. Cooper, "A
+   [DISPLAY]  Madhavan, K., Canel, F., Gimbel, J., and S. Cooper, "A
               Vocabulary for Controlling Usage of Content Collected by
               Search and AI Crawlers", Work in Progress, Internet-Draft,
               draft-madhavan-aipref-displaybasedpref-02, 25 March 2026,
