@@ -65,7 +65,7 @@ normative:
         organization: Mozilla
 
 informative:
-  DISPLAY-BASED:
+  DISPLAY:
     title: "A Vocabulary for Controlling Usage of Content Collected by Search and AI Crawlers"
     date: 2026-03-25
     seriesinfo:
@@ -88,14 +88,14 @@ informative:
 
 --- abstract
 
-This document defines how parameters can be added to AI Preferendes.
+This document defines how parameters can be added to AI Preferences.
 
 
 --- middle
 
 # Introduction
 
-This document defines how parameters can be added to AI Preferendes {{VOCAB}}.
+This document defines how parameters can be added to AI Preferences {{VOCAB}}.
 
 
 # Conventions and Definitions
@@ -121,7 +121,7 @@ ai-train=y;tipjar=/tipjar
 ai-train=n,search=y;display-text=y;max-text-length=160
 ~~~
 
-(The last example reimiplments some categories from {{DISPLAY-BASED}} as
+(The last example reimplements some categories from {{DISPLAY}} as
 parameters.)
 
 
