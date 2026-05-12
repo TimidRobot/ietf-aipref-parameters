@@ -54,7 +54,7 @@ normative:
     title: "A Vocabulary For Expressing AI Usage Preferences"
     date: draft-ietf-aipref-vocab-date
     seriesinfo:
-      Internet-Draft: draft-ietf-aipref-vocab-05
+      Internet-Draft: draft-ietf-aipref-vocab-06
     author:
       -
         fullname: Paul Keller
@@ -105,13 +105,18 @@ This document defines how parameters can be added to AI Preferences {{VOCAB}}.
 
 # Parameters
 
-The AI Preferences can be extended with parameters. The parameter syntax
-defined in ({{Section 3.1.2 of !FIELDS}}) is used:
+As noted in {{Section 6 of VOCAB}}:
+
+> The format relies on the Dictionary type defined in
+> {{Section 3.2 of !FIELDS}}.
+
+The AI Preferences can be extended with parameters. The parameter syntax is
+defined in ({{Section 3.1.2 of !FIELDS}}):
 
 > Parameters are an ordered map of key-value pairs that are associated with an
-> Item (Section 3.3) or Inner List (Section 3.1.1). The keys are unique within
-> the scope of the Parameters they occur within, and the values are bare items
-> (i.e., they themselves cannot be parameterized; see Section 3.3).
+> Item (Section 3.3) [...]. The keys are unique within the scope of the
+> Parameters they occur within, and the values are bare items (i.e., they
+> themselves cannot be parameterized; see Section 3.3).
 
 
 ## URI-refernces
