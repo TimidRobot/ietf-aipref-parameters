@@ -136,11 +136,13 @@ ai-train=n;foo=y
 ~~~
 
 Assuming a content holder wants to highlight the presense of a tip jar:
+
 ~~~
 ai-train=y;tipjar=/tipjar
 ~~~
 
 Example of categories from {{DISPLAY}} converted to parameters:
+
 ~~~
 ai-train=n,search=y;display-text=y;max-text-length=160
 ~~~
