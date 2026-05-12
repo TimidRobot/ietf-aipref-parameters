@@ -132,7 +132,7 @@ be resolved ({{Section 5 of URI}}) before being used.
 Generic example:
 
 ~~~
-ai-train=n;foo=y
+ai-train=n;foo=bar
 ~~~
 
 Assuming a content holder wants to highlight the presense of a tip jar:
