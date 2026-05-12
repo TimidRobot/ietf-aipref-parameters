@@ -106,23 +106,39 @@ This document defines how parameters can be added to AI Preferences {{VOCAB}}.
 # Parameters
 
 The AI Preferences can be extended with parameters. The parameter syntax
-defined in ({{Section 3.1.2 of !FIELDS}}) is used.
+defined in ({{Section 3.1.2 of !FIELDS}}) is used:
+
+> Parameters are an ordered map of key-value pairs that are associated with an
+> Item (Section 3.3) or Inner List (Section 3.1.1). The keys are unique within
+> the scope of the Parameters they occur within, and the values are bare items
+> (i.e., they themselves cannot be parameterized; see Section 3.3).
+
+
+## URI-refernces
 
 If the value of a parameter contains a URI-reference ({{Section 4.1 of
 URI}}) and its value is not a valid URI-reference, the parameter MUST be
 ignored. If its value is a relative reference ({{Section 4.2 of URI}}), it MUST
 be resolved ({{Section 5 of URI}}) before being used.
 
-Examples:
+
+## Examples
+
+Generic example:
 
 ~~~
 ai-train=n;foo=y
-ai-train=y;tipjar=/tipjar
-ai-train=n,search=y;display-text=y;max-text-length=160
 ~~~
 
-(The last example reimplements some categories from {{DISPLAY}} as
-parameters.)
+Assuming a content holder wants to highlight the presense of a tip jar:
+~~~
+ai-train=y;tipjar=/tipjar
+~~~
+
+Example of categories from {{DISPLAY}} converted to parameters:
+~~~
+ai-train=n,search=y;display-text=y;max-text-length=160
+~~~
 
 
 # Security Considerations
