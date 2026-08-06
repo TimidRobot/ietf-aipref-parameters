@@ -163,4 +163,6 @@ This document has no IANA actions.
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+The following individuals made significant contributions to this document:
+
+* Sara Lovell
